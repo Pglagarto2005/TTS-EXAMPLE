@@ -27,10 +27,7 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write("El hijo de rana, Rinrín renacuajo
-Salió esta mañana muy tieso y muy majo
-Con pantalón corto, corbata a la moda
-Sombrero encintado y chupa de boda. ")
+
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")

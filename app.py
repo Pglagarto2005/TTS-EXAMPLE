@@ -6,20 +6,13 @@ import os
 from gtts import gTTS
 from PIL import Image
 import base64
-import thinker 
 
-st.title("Conversión de Texto a Audio")
-root = Tk()
-root.title("Reproductor GIF")
 
-file = "Rana risa.gif"
-info = PhotoImage(file=file)
-label = Label(root, image=info)
-label.pack()
 
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
-
+    image = Image.open("Rana risa.gif")
+    st.image(image, caption= "Banana") 
 
 try:
     os.mkdir("temp")

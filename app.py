@@ -6,7 +6,7 @@ import os
 from gtts import gTTS
 from PIL import Image
 import base64
-from tkinter import *
+import thinker as Tk
 
 st.title("Conversión de Texto a Audio")
 root = Tk()
